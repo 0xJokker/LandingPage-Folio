@@ -33,8 +33,38 @@
             </div>
         </nav>
     </header>
+
+
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello <img class="greeting" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"></span>
+            <h1 class="tittle-H1">I'm <span class="multiText"></span></h1>
+            <p class="parraf-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsa? Lorem ipsum dolor sit amet.</p>
+
+            <div class="btns">
+                <button>Download CV</button>                
+                <button>Hire Me</button>
+            </div>
+        </div>
+
+        <div class="cols cols1">
+            <div class="imgbox">
+                <img src="img/Splash.png" alt="" id="splash">
+                <img src="img/Achievement _Flatline.svg">
+            </div>
+        </div>
+    </div>
     
 
-    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typingEffect = new Typed(".multiText", {
+            strings: ["Engineer", "Designer", "Developer"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        })
+    </script>
 </body>
 </html>
