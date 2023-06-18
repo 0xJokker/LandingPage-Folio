@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Mochiy+Pop+One&display=swap');
+
+/* FONTS: Mochiy Pop One
+          Lora */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', 'Lora', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+
+/* HEADER AND NAV MENU */
+.contaier{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 110;
+}
+
+.logo{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 1rem;
+    color: #3d535f;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a{
+    color: #7f00ff;
+}
+/* HEADER AND NAV MENU */
